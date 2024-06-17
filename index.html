@@ -3,39 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Atmospheric-Conditions App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>⛅ 12°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/psmall06" target="_blank"> Portia Small</a>,
-      code hosted on
-      <a
-        href="https://github.com/psmall06/Atmospheric-Conditions"
-        target="_blank"
-        >Github</a
-      >
-      and website hosted
-      <a href="https://atmospheric-conditions.netlify.app" target="_blank"
-        >on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/psmall06" target="_blank"> Portia Small</a>,
+        code hosted on
+        <a
+          href="https://github.com/psmall06/Atmospheric-Conditions"
+          target="_blank"
+          >Github</a
+        >
+        and website hosted
+        <a href="https://atmospheric-conditions.netlify.app" target="_blank"
+          >on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
