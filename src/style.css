@@ -75,6 +75,25 @@ main {
   font-weight: bold;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
 .weather-app-icon {
   width: 88px;
   margin-left: 10px;
