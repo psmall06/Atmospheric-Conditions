@@ -98,16 +98,16 @@ main {
   margin-bottom: 10px;
 }
 
-.weather-forecast-temperature-min {
-  opacity: 0.6;
-}
-
 .weather-forecast-temperatures {
   font-size: 13px;
   text-align: center;
   color: purple;
   display: flex;
   justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 5px;
 }
 
 .weather-app-icon {
