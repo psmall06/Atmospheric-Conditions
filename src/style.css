@@ -81,13 +81,19 @@ main {
   color: black;
 }
 
+.row,
+.col-2 {
+  flex: 100%;
+  padding: 5px;
+}
+
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.6;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .weather-forecast-temperatures {
